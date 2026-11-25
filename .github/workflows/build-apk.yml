@@ -31,7 +31,7 @@ jobs:
         uses: subosito/flutter-action@v2
         with:
           channel: stable
-          cache: true
+          cache: true 
 
       - name: Sync Android Gradle Wrapper & Fallback Launcher Icons
         run: |
